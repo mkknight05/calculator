@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="stylesheet.css" />
+</head>
+
+<body>
+    <form name="sharkTank">
+        <div class="calculator">
+            <!-- <div class="calculator keys"> -->
+            <div>
+                <!-- <h1 class=”container__display”>0</h1> -->
+
+            </div>
+            <div>
+                <input id="result" name="result2" type="text" />
+                <div>
+                
+                    <input id="clear" type="reset" value="C" class="Show" onclick="sharkTank.result2.value +='C'">
+                    <input id="negative" type="reset" value="N" class="Show" onclick="sharkTank.result2.value +='Does nothing'">
+                    <input id="percent" type="button" value="" class="Show" onclick="sharkTank.result2.value +=''">
+                    <input id="redo" type="button" value="^" class="Show" onclick="sharkTank.result2.value +=''">
+
+                </div>
+
+                <input id="Seven" type="button" value="7" class="Show" onclick="sharkTank.result2.value +='7'">
+                <input id="eight" type="button" value="8" class="Show" onclick="sharkTank.result2.value +='8'">
+                <input id="nine" type="button" value="9" class="Show" onclick="sharkTank.result2.value +='9'">
+                <input id="add" type="button" value="+" class="Show" onclick="sharkTank.result2.value +='+'">
+
+                <div>
+                    <input id="four" type="button" value="4" class="Show" onclick="sharkTank.result2.value +='4'">
+                    <input id="five" type="button" value="5" class="Show" onclick="sharkTank.result2.value +='5'">
+                    <input id="six" type="button" value="6" class="Show" onclick="sharkTank.result2.value +='6'">
+                    <input id="subtact" type="button" value="-" class="Show" onclick="sharkTank.result2.value +='-'">
+
+                </div>
+                <div>
+                    <input id="one" type="button" value="1" class="Show" onclick="sharkTank.result2.value +='1'">
+                    <input id="two" type="button" value="2" class="Show" onclick="sharkTank.result2.value +='2'">
+                    <input id="three" type="button" value="3" class="Show" onclick="sharkTank.result2.value +='3'">
+                    <input id="multiply" type="button" value="*" class="Show" onclick="sharkTank.result2.value +='*'">
+
+                </div>
+<!-- 
+                <button class="decimal" data-action="decimal">.</button>
+                <button class="number-operator">0</button>
+                <button class="key--equal" data-action="calculate">=</button>
+                <button class="key--operator" data-action="divide">÷</button> -->
+
+                <input id="decimal" type="button" value="." class="Show" onclick="sharkTank.result2.value +='.'">
+                <input id="number-operator" type="button" value="0" class="Show" onclick="sharkTank.result2.value +='0'">
+                <input id="equal" type="button" value="=" class="Show" onclick="sharkTank.result2.value  = eval(sharkTank.result2.value)">
+                <input id="divide" type="button" value="/" class="Show" onclick="sharkTank.result2.value +='/'">
+
+
+            </div>
+        </div>
+
+        <script src="calculator2.js"></script>
+</body>
+
+
+</html>

@@ -1,0 +1,22 @@
+body{
+    margin: auto;
+    width: 150px;
+    margin-top: 100px;
+    align-content: center;
+    
+
+
+}
+#container{
+   
+    background-image: linear-gradient(-90deg, red, yellow);
+}
+.button {
+    size: 40px;
+    color: blue:
+}
+
+div{
+    align-items: center
+}
+   

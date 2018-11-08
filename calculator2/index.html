@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="stylesheet.css" />
+</head>
+<body>
+    <div class="calculator">
+     <!-- <div class="calculator keys"> -->
+        <div>
+            <h1 class=”container__display”>0</h1>
+
+        </div>
+        <div>
+            <div>
+                <button class="special" data-action="clear">AC</button>
+                <button class="special" data-action="negative">+/-</button>
+                <button class="special" data-action="percent">%</button>
+                <button class="special" data-action="redo">R</button>
+            </div>
+            <button class="number-operator">7</button>
+            <button class="number-operator">8</button>
+            <button class="number-operator">9</button>
+            <button class="key--operator" data-action="add">+</button>
+            <div>
+                <button class="number-operator">4</button>
+                <button class="number-operator">5</button>
+                <button class="number-operator">6</button>
+                <button class="key--operator" data-action="subtract">-</button>
+            </div>
+            <div>
+                <button class="number-operator">1</button>
+                <button class="number-operator">2</button>
+                <button class="number-operator">3</button>
+                <button class="key--operator" data-action="multiply">&times;</button>
+            </div>
+
+            <button class="decimal" data-action="decimal">.</button>
+            <button class="number-operator">0</button>
+            <button class="key--equal" data-action="calculate">=</button>
+            <button class="key--operator" data-action="divide">÷</button>
+        </div>
+    </div>
+
+    <script src="calculator2.js"></script>
+</body>
+
+
+</html>
+
+div id="main">
+       <h2>Simple Calculator</h2>
+
+       <!DOCTYPE html>
+       <html>
+        <head>
+              <meta charset="UTF-8">
+              <meta name="viewport" content="width=device-width,initial-scale=1">
+              <link rel="stylesheet" href="stylesheet.css" type="text/css">
+       
+       
+       
+       
+          <body>
+         <div id="main">
+               <center>
+          <h1>The Cal</h1>
+          <form name="sharkBait">
+         <input id="Result" name="Result2" type="text" />
+          <div id="keys">
+       
+       
+                  <h1  id = "topBar" ></h1>
+       
+       
+           </div>
+              <div id="firstRow">
+                 <input id="ClearAll" type="reset" value="CE" class="Show"onclick="sharkBait.Result2.value +='ClearAll'"  >
+                 <input id="Clear" type="reset" value="C" class="Show"onclick="sharkBait.Result2.value +='Clear'">
+                 <input id="Add" type="button" value="+" class="operators operand"onclick="sharkBait.Result2.value +='+'">
+             </div>
+             <div id="secondRow">
+                 <input id="One" type="button" value="1" class="Show" onclick="sharkBait.Result2.value +='1'">
+                 <input id="Two" type="button" value="2" class="Show" onclick="sharkBait.Result2.value +='2'">
+                 <input id="Three" type="button" value="3" class="Show"onclick="sharkBait.Result2.value +='3'">
+                 <input id="Sub" type="button" value="-" class="operators operand" onclick="sharkBait.Result2.value +='-'">
+       
+             <div id="thirdRow">
+                 <input id="Four" type="button" value="4" class="Show" onclick="sharkBait.Result2.value +='4'">
+                 <input id="Five" type="button" value="5" class="Show" onclick="sharkBait.Result2.value +='5'">
+                 <input id="six" type="button" value="6" class="Show"onclick="sharkBait.Result2.value +='6'">
+                 <input id="Mul" type="button" value="*" class="operators operand" onclick="sharkBait.Result2.value +='*'">
+             </div>
+             <div id="fourthRow">
+                 <input id="Seven" type="button" value="7" class="Show" onclick="sharkBait.Result2.value +='7'">
+                 <input id="Eight" type="button" value="8" class="Show" onclick="sharkBait.Result2.value +='8'">
+                 <input id="Nine" type="button" value="9" class="Show" onclick="sharkBait.Result2.value +='9'">
+                 <input id="Divide" type="button" value="/" class="operators operand" onclick="sharkBait.Result2.value +='/'">
+             </div>
+             <div id="fifthRow">
+                 <input id="Zero" type="button" value="0" class="Show"onclick="sharkBait.Result2.value +='0'">
+                 <input id="Dot" type="button" value="." class="Show"onclick="sharkBait.Result2.value +='.'">
+                 <input id="Calculate" type="button" value="=" class="operand"onclick="sharkBait.Result2.value = eval(sharkBait.Result2.value)">
+       
+       
+       
+              </div>
+         </div>
+         </center>
+       </form>
+       </div>
+       
+       <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+       <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+             <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+       <script src="calculator.js" type="text/javascript"></script>
+       </body>
+       
+       </html>
